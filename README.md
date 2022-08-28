@@ -44,7 +44,7 @@ source ~/.bashrc
 ### 1. First create an anaconda virtual environment for pytorch
 
 ```
-conda create -n mypytorch python=3.8
+conda create -n mypytorch python=3.7
 ```
 ### 2. activate the mypytorch environment
 
@@ -59,7 +59,7 @@ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 ### 4. Edit ~/.bashrc file, set to use python3.8 in mypytorch environment
 
 ```
-alias python='/home/your/anaconda3/envs/mypytorch/bin/python3.8'
+alias python='/home/your/anaconda3/envs/mypytorch/bin/python3.7'
 ```
 ### 5. Execute after save and exit:
 
