@@ -76,7 +76,7 @@ git clone https://github.com/CurlyWei/yolov5_ros.git
 
 cd yolov5_ros/yolov5
 
-sudo pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Basic Usage
